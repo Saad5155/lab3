@@ -1,0 +1,8 @@
+employees = {}
+
+while True:
+    name = input("Enter employee's name or (no) to end: ")
+    if name.__eq__("no"):
+        break
+    salary = float(input("Enter employee's salary: "))
+    employees[name] = salary
