@@ -1,0 +1,12 @@
+list = []
+
+for i in range(10):
+    value = float(input("Enter a number: "))
+    list.append(value)
+
+largest_number = list[0]
+for number in list:
+    if number > largest_number:
+        largest_number = number
+
+print("The largest number is:", largest_number)
